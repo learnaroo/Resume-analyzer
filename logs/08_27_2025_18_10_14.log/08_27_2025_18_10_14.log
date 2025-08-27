@@ -1,0 +1,7 @@
+[ 2025-08-27 18:10:15,121 ] 15 root - INFO - Initializing TextExtracter configuration...
+[ 2025-08-27 18:10:15,121 ] 17 root - INFO - TextExtracter configuration initialized successfully.
+[ 2025-08-27 18:10:15,165 ] 28 root - INFO - Starting text extraction for file: C:\Users\rojas\OneDrive\Desktop\Projects\resume _analyser\data\Resume15102024.pdf
+[ 2025-08-27 18:10:15,165 ] 37 root - INFO - Attempting text extraction using pdfplumber...
+[ 2025-08-27 18:10:15,323 ] 44 root - INFO - PDF text extraction with pdfplumber completed.
+[ 2025-08-27 18:10:15,323 ] 78 root - INFO - Text extraction successful. Extracted 2993 characters.
+[ 2025-08-27 18:10:25,860 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
