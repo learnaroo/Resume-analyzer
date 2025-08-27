@@ -1,0 +1,25 @@
+[ 2025-08-27 18:19:36,465 ] 10 root - INFO - Initializing TextExtracter and Evaluator components...
+[ 2025-08-27 18:19:36,465 ] 15 root - INFO - Initializing TextExtracter configuration...
+[ 2025-08-27 18:19:36,465 ] 17 root - INFO - TextExtracter configuration initialized successfully.
+[ 2025-08-27 18:19:36,465 ] 12 root - INFO - Initializing Evaluator configuration...
+[ 2025-08-27 18:19:36,507 ] 17 root - INFO - Evaluator initialized successfully with provided configuration.
+[ 2025-08-27 18:19:36,507 ] 13 root - INFO - Components initialized successfully.
+[ 2025-08-27 18:21:48,032 ] 29 root - INFO - \U0001f4e5 Received request to analyze resume: Resume15102024.pdf
+[ 2025-08-27 18:21:48,032 ] 30 root - INFO - Job description length: 1471 characters
+[ 2025-08-27 18:21:48,032 ] 45 root - INFO - \u2705 File saved at uploaded_resumes\bc6d74d1-342a-4636-aeaa-d333371ff02a.pdf
+[ 2025-08-27 18:21:48,032 ] 27 root - INFO - Starting resume analysis pipeline for file: uploaded_resumes\bc6d74d1-342a-4636-aeaa-d333371ff02a.pdf
+[ 2025-08-27 18:21:48,032 ] 28 root - INFO - Starting text extraction for file: uploaded_resumes\bc6d74d1-342a-4636-aeaa-d333371ff02a.pdf
+[ 2025-08-27 18:21:48,032 ] 37 root - INFO - Attempting text extraction using pdfplumber...
+[ 2025-08-27 18:21:48,220 ] 44 root - INFO - PDF text extraction with pdfplumber completed.
+[ 2025-08-27 18:21:48,220 ] 78 root - INFO - Text extraction successful. Extracted 2993 characters.
+[ 2025-08-27 18:21:48,220 ] 31 root - INFO - Text extraction successful. Extracted 2992 characters.
+[ 2025-08-27 18:21:48,220 ] 117 root - INFO - Starting resume evaluation process...
+[ 2025-08-27 18:21:48,220 ] 51 root - INFO - Constructing evaluation prompt using resume and job description.
+[ 2025-08-27 18:21:48,221 ] 106 root - INFO - Prompt constructed successfully.
+[ 2025-08-27 18:21:48,221 ] 27 root - INFO - Sending prompt to LLM for evaluation...
+[ 2025-08-27 18:21:55,636 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2025-08-27 18:21:55,645 ] 40 root - INFO - Received response from LLM successfully.
+[ 2025-08-27 18:21:55,645 ] 126 root - INFO - LLM response parsed successfully into JSON.
+[ 2025-08-27 18:21:55,645 ] 35 root - INFO - Resume evaluation completed successfully.
+[ 2025-08-27 18:21:55,645 ] 50 root - INFO - \U0001f3af Resume analysis pipeline completed successfully.
+[ 2025-08-27 18:21:55,645 ] 68 root - INFO - \U0001f9f9 Temporary file uploaded_resumes\bc6d74d1-342a-4636-aeaa-d333371ff02a.pdf deleted.

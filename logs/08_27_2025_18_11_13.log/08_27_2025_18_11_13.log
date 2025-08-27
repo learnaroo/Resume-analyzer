@@ -1,0 +1,9 @@
+[ 2025-08-27 18:11:14,514 ] 10 root - INFO - Initializing TextExtracter and Evaluator components...
+[ 2025-08-27 18:11:14,514 ] 15 root - INFO - Initializing TextExtracter configuration...
+[ 2025-08-27 18:11:14,514 ] 17 root - INFO - TextExtracter configuration initialized successfully.
+[ 2025-08-27 18:11:14,554 ] 13 root - INFO - Components initialized successfully.
+[ 2025-08-27 18:11:14,556 ] 114 fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
